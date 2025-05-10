@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="21" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-AoutRefMapFile=C:\Users\kevin\IdeaProjects\thanksgiving2\build\classes\java\client\client-thanksgiving2-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\kevin\IdeaProjects\thanksgiving2\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.client.tiny -AinMapFileNamedIntermediary=C:\Users\kevin\.gradle\caches\fabric-loom\1.21.4\net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2\mappings.tiny" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="thanksgiving2.main" options="-AoutRefMapFile=C:\Users\kevin\IdeaProjects\thanksgiving2\build\classes\java\main\thanksgiving2-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\kevin\IdeaProjects\thanksgiving2\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.main.tiny -AinMapFileNamedIntermediary=C:\Users\kevin\.gradle\caches\fabric-loom\1.21.4\net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2\mappings.tiny" />
+      <module name="thanksgiving2.test" options="-AoutRefMapFile=C:\Users\kevin\IdeaProjects\thanksgiving2\build\classes\java\test\test-thanksgiving2-refmap.json -AdefaultObfuscationEnv=named:intermediary -Aquiet=true -AoutMapFileNamedIntermediary=C:\Users\kevin\IdeaProjects\thanksgiving2\build\loom-cache\mixin-map-net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2.test.tiny -AinMapFileNamedIntermediary=C:\Users\kevin\.gradle\caches\fabric-loom\1.21.4\net.fabricmc.yarn.1_21_4.1.21.4+build.8-v2\mappings.tiny" />
+    </option>
+  </component>
+</project>
