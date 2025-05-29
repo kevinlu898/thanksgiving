@@ -3,7 +3,7 @@
     <option name="MAIN_CLASS_NAME" value="net.fabricmc.devlaunchinjector.Main" />
     <module name="thanksgiving2.client" />
     <shortenClasspath name="ARGS_FILE" />
-    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=C:\Users\kevin\IdeaProjects\thanksgiving2\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient -XX:+AllowEnhancedClassRedefinition -javaagent:C:\Users\kevin\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.15.4+mixin.0.8.7\6a12aacc794f1078458433116e9ed42c1cc98096\sponge-mixin-0.15.4+mixin.0.8.7.jar" />
+    <option name="VM_PARAMETERS" value="-Dfabric.dli.config=C:\Users\kevin\IdeaProjects\thanksgiving2\.gradle\loom-cache\launch.cfg -Dfabric.dli.env=client -Dfabric.dli.main=net.fabricmc.loader.impl.launch.knot.KnotClient -javaagent:C:\Users\kevin\.gradle\caches\modules-2\files-2.1\net.fabricmc\sponge-mixin\0.15.4+mixin.0.8.7\6a12aacc794f1078458433116e9ed42c1cc98096\sponge-mixin-0.15.4+mixin.0.8.7.jar" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run/" />
     <method v="2">
       <option name="Make" enabled="true" />

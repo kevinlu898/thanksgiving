@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bread",
+    "minecraft:bread",
+    "minecraft:bread",
+    "minecraft:carrot",
+    "minecraft:carrot",
+    "thanksgiving2:herb_plant",
+    "thanksgiving2:herb_plant",
+    "minecraft:potato",
+    "minecraft:potato"
+  ],
+  "result": {
+    "id": "thanksgiving2:uncooked_stuffing",
+    "count": 1
+  }
+}
