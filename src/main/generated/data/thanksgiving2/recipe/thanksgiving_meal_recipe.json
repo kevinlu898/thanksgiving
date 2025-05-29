@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "thanksgiving2:cooked_turkey",
+    "thanksgiving2:cranberry_sauce",
+    "thanksgiving2:cranberry_sauce",
+    "thanksgiving2:cooked_stuffing",
+    "thanksgiving2:cooked_stuffing"
+  ],
+  "result": {
+    "id": "thanksgiving2:thanksgiving_meal",
+    "count": 1
+  }
+}
