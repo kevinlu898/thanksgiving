@@ -53,15 +53,16 @@ public class ModItems {
     /*###########################*/
     // Notes!
     // to work on:
-    // need to add: raw turkey, cooked turkey, cranberry sauce, thanksgiving meal, thanksgiving trophy
+    // need to add: raw turkey, cooked turkey, cranberry sauce, thanksgiving meal, <- done || thanksgiving trophy
     // !!!!turkey loot table works !!!!!
     //  -> add turkey mob if time allows
-    // adding textures for all for the items
-    // translations and models and such
+    // adding textures for all for the items -- done with it!!
+    // translations and models and such -- completed
     // thanksgiving trophy item + block
     // adding recipes to craft
     // we'll see if we have more time for other thingies
-    // test test
+    // test test test!!
+    // add achievements
     /*##################################*/
 
     public static void initialize(){
