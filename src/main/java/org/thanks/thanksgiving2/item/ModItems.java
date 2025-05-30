@@ -52,18 +52,12 @@ public class ModItems {
 
     /*###########################*/
     // Notes!
-    // to work on:
-    // need to add: raw turkey, cooked turkey, cranberry sauce, thanksgiving meal, <- done || thanksgiving trophy
-    // !!!!turkey loot table works !!!!!
-    //  -> add turkey mob if time allows
-    // adding textures for all for the items -- done with it!!
-    // translations and models and such -- completed
-    // thanksgiving trophy item + block
-    // adding recipes to craft -> done!
-    // we'll see if we have more time for other thingies
+    // to work on
     // test test test!!
     // add achievements -> done
-    //crafting unlocks
+    //crafting unlocks, which means that we unlock the crafting recipes + toast only when certain items gotten
+    //working on the readme
+    // fix up the datagen +- full movement to datagen?
     /*##################################*/
 
     public static void initialize(){

@@ -26,10 +26,5 @@
       "thanksgiving_ad"
     ]
   ],
-  "rewards": {
-    "recipes": [
-      "thanksgiving2:uncooked_stuffing_recipe.json"
-    ]
-  },
   "sends_telemetry_event": true
 }

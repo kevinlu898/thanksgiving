@@ -25,8 +25,5 @@
       "get_turkey_ad"
     ]
   ],
-  "rewards": {
-    "recipes": ["thanksgiving2:cooked_turkey_smoking.json"]
-  },
   "sends_telemetry_event": true
 }
