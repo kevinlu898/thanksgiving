@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "thanksgiving_ad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thanksgiving2:herb_plant"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "description": "Obtain an herb plant by breaking grass",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "thanksgiving2:herb_plant"
+    },
+    "title": "Thanksgiving!"
+  },
+  "requirements": [
+    [
+      "thanksgiving_ad"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thanksgiving2:uncooked_stuffing_recipe.json"
+    ]
+  },
+  "sends_telemetry_event": true
+}

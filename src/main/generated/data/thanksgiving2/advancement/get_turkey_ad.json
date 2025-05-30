@@ -1,0 +1,32 @@
+{
+  "parent": "thanksgiving2:thanksgiving_ad",
+  "criteria": {
+    "get_turkey_ad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thanksgiving2:raw_turkey"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Obtain raw turkey, a rare drop from chickens",
+    "icon": {
+      "count": 1,
+      "id": "thanksgiving2:raw_turkey"
+    },
+    "title": "Turkey Trouble"
+  },
+  "requirements": [
+    [
+      "get_turkey_ad"
+    ]
+  ],
+  "rewards": {
+    "recipes": ["thanksgiving2:cooked_turkey_smoking.json"]
+  },
+  "sends_telemetry_event": true
+}

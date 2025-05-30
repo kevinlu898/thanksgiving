@@ -1,0 +1,29 @@
+{
+  "parent": "thanksgiving2:thanksgiving_ad",
+  "criteria": {
+    "cranberry_sauce_ad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thanksgiving2:cranberry_sauce"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Make cranberry sauce",
+    "icon": {
+      "count": 1,
+      "id": "thanksgiving2:cranberry_sauce"
+    },
+    "title": "Sweet and Sour"
+  },
+  "requirements": [
+    [
+      "cranberry_sauce_ad"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

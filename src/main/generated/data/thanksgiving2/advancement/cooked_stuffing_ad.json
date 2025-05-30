@@ -1,0 +1,29 @@
+{
+  "parent": "thanksgiving2:thanksgiving_ad",
+  "criteria": {
+    "cooked_stuffing_ad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thanksgiving2:cooked_stuffing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Cook a bowl of Thanksgiving stuffing",
+    "icon": {
+      "count": 1,
+      "id": "thanksgiving2:cooked_stuffing"
+    },
+    "title": "Stuffed to the Brim"
+  },
+  "requirements": [
+    [
+      "cooked_stuffing_ad"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "thanksgiving2:cooked_stuffing_ad",
+  "criteria": {
+    "thanksgiving_meal_ad": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thanksgiving2:thanksgiving_meal"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Cook up a delicious Thanksgiving meal!",
+    "hidden": true,
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "thanksgiving2:thanksgiving_meal"
+    },
+    "title": "A Filling Meal"
+  },
+  "requirements": [
+    [
+      "thanksgiving_meal_ad"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

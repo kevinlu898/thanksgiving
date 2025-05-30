@@ -8,5 +8,6 @@ public class Thanksgiving2DataGenerator implements DataGeneratorEntrypoint {
     @Override
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
+        pack.addProvider(Thanksgiving2AdvancementProvider::new);
     }
 }

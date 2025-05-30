@@ -59,10 +59,11 @@ public class ModItems {
     // adding textures for all for the items -- done with it!!
     // translations and models and such -- completed
     // thanksgiving trophy item + block
-    // adding recipes to craft
+    // adding recipes to craft -> done!
     // we'll see if we have more time for other thingies
     // test test test!!
-    // add achievements
+    // add achievements -> done
+    //crafting unlocks
     /*##################################*/
 
     public static void initialize(){
