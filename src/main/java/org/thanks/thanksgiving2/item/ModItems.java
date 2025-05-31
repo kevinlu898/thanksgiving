@@ -51,12 +51,10 @@ public class ModItems {
     public static final Item THANKSGIVING_MEAL = register("thanksgiving_meal", Item::new, new Item.Settings().food(THANKSGIVING_MEAL_FOOD_COMPONENT,HEALTH_FOOD_COMPONENT));
 
     /*###########################*/
-    // Notes!
-    // to work on
-    // test test test!!
-    //crafting unlocks, which means that we unlock the crafting recipes + toast only when certain items gotten
-    //working on the readme
+    // Notes
+    // crafting unlocks
     // fix up the datagen +- full movement to datagen?
+    // make fire actually cook our turkey
     /*##################################*/
 
     public static void initialize(){
