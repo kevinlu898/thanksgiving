@@ -9,5 +9,7 @@ public class Thanksgiving2DataGenerator implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
         FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
         pack.addProvider(Thanksgiving2AdvancementProvider::new);
+
+        // **************** DON'T RUN DATAGEN!!!!! IT WILL DELETE OTHER FILES.
     }
 }

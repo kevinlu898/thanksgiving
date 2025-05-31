@@ -33,12 +33,12 @@ public class ModItems {
     public static final FoodComponent COOKED_STUFFING_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(6).build();
     public static final FoodComponent RAW_TURKEY_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(3).build();
     public static final FoodComponent COOKED_TURKEY_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(7).build();
-    public static final FoodComponent CRANBERRY_SAUCE_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(2).build();
-    public static final FoodComponent THANKSGIVING_MEAL_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(10).alwaysEdible().build();
+    public static final FoodComponent CRANBERRY_SAUCE_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(6).build();
+    public static final FoodComponent THANKSGIVING_MEAL_FOOD_COMPONENT = new FoodComponent.Builder().nutrition(16).alwaysEdible().build();
 
     // effect status components
-    public static final ConsumableComponent POISON_FOOD_COMPONENT = ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.POISON, 30*20, 1), 0.7f)).build();
-    public static final ConsumableComponent HEALTH_FOOD_COMPONENT = ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 30*20, 1), 1f)).build();
+    public static final ConsumableComponent POISON_FOOD_COMPONENT = ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.POISON, 30*20, 0), 0.7f)).build();
+    public static final ConsumableComponent HEALTH_FOOD_COMPONENT = ConsumableComponents.food().consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 30*20, 0), 1f)).build();
 
 
 //    public static final Item COOL_ITEM = register("cool_item", Item::new, new Item.Settings());
@@ -54,7 +54,6 @@ public class ModItems {
     // Notes!
     // to work on
     // test test test!!
-    // add achievements -> done
     //crafting unlocks, which means that we unlock the crafting recipes + toast only when certain items gotten
     //working on the readme
     // fix up the datagen +- full movement to datagen?
