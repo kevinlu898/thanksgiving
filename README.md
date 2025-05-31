@@ -11,7 +11,7 @@
 
 ## Ready to get started?
 
-Download the mod and start out by punching grass! (yes, there is something new)
+Download the mod and start out by punching grass!
 
 
 
